@@ -1,0 +1,17 @@
+# Общие правила
+node_modules/
+dist/
+.env
+.vercel/
+.DS_Store
+
+# Фронтенд (client)
+client/node_modules/
+client/build/
+
+# Бэкенд (server)
+server/node_modules/
+server/dist/
+
+# Системные файлы
+*.log
