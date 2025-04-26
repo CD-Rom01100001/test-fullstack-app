@@ -58,7 +58,7 @@ const UserForm: FC = () => {
       </form>
       <button onClick={getData}>показать пользователей</button>
       <div className="out">
-        {usersData?.map(user => {
+        {usersData instanceof Array && usersData?.map(user => {
           return (
             <div className='user' key={user.email}>
               <p>{user.lastName}</p>
